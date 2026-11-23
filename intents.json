@@ -1,0 +1,133 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Is anyone there?",
+        "What's up",
+        "Hey there",
+        "Hi there"
+      ],
+      "responses": [
+        "Hello! How can I assist you with your studies or campus info today?",
+        "Hi there! Ask me anything about courses, exams, or campus facilities."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Exit",
+        "Quit",
+        "Thanks, bye",
+        "Have a good day",
+        "See ya"
+      ],
+      "responses": [
+        "Goodbye! Best of luck with your studies!",
+        "See you later! Reach out whenever you need help."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Appreciate it",
+        "Thanks a lot",
+        "Thank you very much",
+        "Great, thanks"
+      ],
+      "responses": [
+        "You're welcome! Let me know if you have more questions.",
+        "Happy to help!"
+      ]
+    },
+    {
+      "tag": "library_hours",
+      "patterns": [
+        "When does the library open?",
+        "Library timings",
+        "Is the library open on weekends?",
+        "Library hours",
+        "What are the library hours?",
+        "When does the library close?",
+        "Library schedule"
+      ],
+      "responses": [
+        "The Central Library is open Monday to Friday from 8:00 AM to 10:00 PM, and on weekends from 9:00 AM to 6:00 PM."
+      ]
+    },
+    {
+      "tag": "exam_schedule",
+      "patterns": [
+        "When are the exams?",
+        "Exam timetable",
+        "Final exam dates",
+        "Midterm schedule",
+        "How do I check my exam schedule?",
+        "Exam schedule",
+        "When do exams start?",
+        "Exam dates"
+      ],
+      "responses": [
+        "Midterm exams begin in the 8th week of the semester, and Finals begin in week 16. Check the Student Portal under 'Academics > Exam Schedule' for your specific dates."
+      ]
+    },
+    {
+      "tag": "attendance",
+      "patterns": [
+        "What is the minimum attendance?",
+        "Attendance policy",
+        "How much attendance is required?",
+        "Shortage of attendance",
+        "Minimum attendance",
+        "Attendance criteria",
+        "75 percent attendance"
+      ],
+      "responses": [
+        "Students must maintain at least 75% attendance in each subject to be eligible for final semester examinations."
+      ]
+    },
+    {
+      "tag": "wifi_help",
+      "patterns": [
+        "How to connect to campus wifi?",
+        "Wifi password",
+        "Internet not working",
+        "Student wifi login",
+        "Campus wifi",
+        "Campus Wi-Fi",
+        "Wi-Fi help",
+        "How do I connect to wifi?",
+        "WiFi login"
+      ],
+      "responses": [
+        "Connect to the 'Campus-Student' network and log in using your Student ID and portal password."
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "Who made you?",
+        "Who created you?",
+        "Are you a robot?",
+        "What are you?",
+        "Who are you?",
+        "Tell me about yourself",
+        "What do you do?"
+      ],
+      "responses": [
+        "I am an offline AI Student Assistant built with Python, Scikit-Learn, and Flask for a university project."
+      ]
+    }
+  ]
+}
